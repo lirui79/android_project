@@ -1,0 +1,6 @@
+本文的用于描述 加速度传感器和罗盘传感器
+     目录中的源码仅对angler  N6p有效
+     路径为   源码根目录/hardware/libhardware/modules/  下
+     在源码根目录/hardware/libhardware/modules/Android.mk hardware_modules 中增加
+       VSensors 目录
+     
