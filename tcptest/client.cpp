@@ -139,7 +139,7 @@ int main(int argc, char *argv[]) {
        long startTime = tv.tv_sec * 1000 + tv.tv_usec / 1000;
        long min = 100000, max = -1;
        int moveWindow = 0;
-       FILE *fp = fopen("/sdcard/1.txt","w");
+       FILE *fp = fopen("/sdcard/tcp_c.txt","w");
        fprintf(fp, "delay %d \n", delay);
        fprintf(fp, "current   max   min  argv\n");
        while(nExit == 0)  {
